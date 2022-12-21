@@ -206,12 +206,13 @@
         color: #000;
         font-weight: 600;
         padding-top: 40px;
+        padding-bottom: 50px;
 
     }
 
     .video-container {
         position: relative;
-        padding-bottom: 56.25%;
+        padding-bottom: 60%;
         padding-top: 30px;
         height: 0;
         overflow: hidden;
@@ -300,6 +301,7 @@
         flex-wrap: wrap;
         gap: 4rem;
         margin: 3%;
+        padding-bottom: 60px;
     }
 
     .second-container .box1 {
@@ -392,6 +394,26 @@
         transition-delay: 0.4s;
     }
 
+    @media screen and (max-width: 1625px) {
+        .second-container {
+            position: absolute;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3.5rem;
+            margin: 7.2%;
+        }
+    }
+
+    @media screen and (max-width: 1597px) {
+        .second-container {
+            position: absolute;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3.5rem;
+        }
+    }
     @media screen and (max-width: 1520px) {
         .sun-text h4 {
             flex: 1 1 21rem;
@@ -415,25 +437,15 @@
             text-align: justify;
         }
     }
-
-    @media screen and (max-width: 1625px) {
-        .second-container {
-            position: absolute;
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 3.5rem;
-            margin: 7.2%;
-        }
-    }
-
-    @media screen and (max-width: 1597px) {
-        .second-container {
-            position: absolute;
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 3.5rem;
+    @media screen and (max-width: 1250px) {
+        .sun-text h4 {
+            flex: 1 1 21rem;
+            font-size: 1.1rem;
+            padding-top: 100px;
+            font-weight: 300;
+            color: #FFFFFF;
+            margin: 0.5rem 0 1rem;
+            text-align: justify;
         }
     }
     @media screen and (max-width: 1179px) {
@@ -448,17 +460,7 @@
         }
     }
 
-    @media screen and (max-width: 1250px) {
-        .sun-text h4 {
-            flex: 1 1 21rem;
-            font-size: 1.1rem;
-            padding-top: 100px;
-            font-weight: 300;
-            color: #FFFFFF;
-            margin: 0.5rem 0 1rem;
-            text-align: justify;
-        }
-    }
+   
 
     @media screen and (max-width: 1077px) {
         .home {
@@ -616,6 +618,7 @@
             padding-left: 18px;
         }
     }
+
     @media screen and (max-width: 429px) {
         .sun-text h4 {
             font-size: 12px;
@@ -652,14 +655,14 @@
             font-size: 11px;
             align-items: center;
             text-align: center;
-            padding-left: 18px;
+            padding-left: 20px;
         }
     }
 
     @media screen and (max-width: 377px) {
         .sun-text h4 {
             font-size: 11px;
-            padding-left: 7px;
+            padding-left: 10px;
         }
     }
 
@@ -678,7 +681,6 @@
             padding-left: 14px;
         }
     }
-
 </style>
 
 
@@ -697,7 +699,6 @@
                 <li><a href="#solarsystem">Solar System</a></li>
                 <li><a href="#sun">Sun</a></li>
                 <li><a href="#planets">Planets</a></li>
-
             </ul>
 
         </div>
@@ -775,6 +776,7 @@
                     Mercury is the fastest planet, zipping around the Sun every 88 Earth days. </p>
             </div>
         </div>
+
         <div class="box">
             <img src="https://www.pngmart.com/files/22/Venus-PNG-Clipart.png" alt="">
             <div class="content">
@@ -837,8 +839,6 @@
         </div>
     </div>
     </section>
-    <!-- planets section ends here --->
-
 
     <section class="dwarf" id="dwarf">
         <div class="heading">
@@ -898,16 +898,13 @@
                 <h2>ERIS</h2>
                 <p>Eris is one of the largest known dwarf planets in our solar system.
                     It's about the same size as Pluto, but it is three times farther from the Sun. One orbit takes about
-                    557
-                    years.
+                    557 years.
                 </p>
             </div>
         </div>
     </div>
     </section>
 
-
-
-
+    <!-- planets section ends here --->
 </body>
 </html>
